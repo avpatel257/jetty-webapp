@@ -10,7 +10,7 @@ import org.springframework.core.io.Resource;
 public class PropertySourcesConfig {
 
     private static final Resource[] PROPERTIES_RESOURCES = new ClassPathResource[]{
-            new ClassPathResource("example.properties"),
+            new ClassPathResource("application.properties"),
     };
 
     public static class DefaultConfig {
